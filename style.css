@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+ background-color: black;
+ width: 100%;
+ height: 110px;
+ position: relative;
+ display: flex;
+ border: solid 3px bisque;
+  
+}
+h2{
+    color: bisque;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+em{
+    margin-left: 50px;
+}
+.home{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    width: 45%;
+    position: absolute; 
+    top: 30px;
+    color: bisque;
+}
+.menubar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-black-fish-shrimp-sushi-delicious-seafood-food-promotion-banner-picture-image_1006019.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.col{
+    height: 350px;
+    width: 400px;
+    background-color:  rgb(54, 47, 47);
+    margin-top: 30px;
+}
+.img{
+    height: 250px;
+    width: 340px;
+    background-color: rgb(54, 47, 47);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10%;
+    
+}
+.one1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtY_GAKnHvy6W2BMjPifh1OuRub3LI0aPa8g&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two2{
+    background-image: url("https://s01.sgp1.cdn.digitaloceanspaces.com/article/133974-ghnohbrdfj-1578050534.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three3{
+    background-image: url('https://www.tamarindnthyme.com/wp-content/uploads/2020/10/Untitled-design-91.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    font-size: 40px;
+    margin-left: 88px;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 80px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(54, 47, 47);
+    text-align: center;
+}
+a{
+    color: rgb(234, 211, 211);
+}
+
+@media screen  and (max-width:400px){
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .header{
+        background-color: black;
+        width: 400px;
+        height: 40px;
+        position: relative;
+        display: flex;
+        border: solid 3px bisque;
+         
+         }
+         h2{
+            color: bisque;
+            font-size: 20px;
+            letter-spacing: 5px;
+            margin-left: 10px;
+            font-family: 'Dancing Script', cursive;
+        }
+        em{
+            margin-left: 13px;
+            margin-bottom: 3px;
+        }
+        .home{
+            background-color:black;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 150px;
+            width: 200px;
+            position: absolute; 
+            top: 10px;
+            color: bisque;
+        }
+        h4{
+            font-size: 10px;
+        }
+        .row{
+            width: 400px;
+            height: 1000px;
+            background-color: bisque;
+            display: flex;
+            justify-content: initial;
+            flex-direction: column;
+           
+        }
+        .col{
+            height: 350px;
+            width: 400px;
+            background-color:  rgb(54, 47, 47);
+            border: 2px wheat ridge;
+        }
+        .img{
+            height: 200px;
+            width: 340px;
+            background-color: rgb(54, 47, 47);
+            border-radius: 10%;
+            
+        }
+        .footer{
+            width: 400px;
+            height: 75px;
+            background-color: rgb(54, 47, 47);
+            text-align: center;
+        }
+        h3{
+            font-size: 40px;
+            margin-left: 88px;
+            color: bisque;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+}
